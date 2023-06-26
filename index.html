@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Data Science Portfolio</title>
+  <script src="main.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://kit.fontawesome.com/c1d4604ad9.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="home col-lg-12 col-md-12 col-sm-9 col-xs-12">
+
+  <h1>My Data Science Portfolio</h1>
+    
+  <div id="header">
+    <div class="container col-lg-12 col-md-12 col-sm-9 col-xs-12">
+      <nav>
+        <!-- <img class='img-responsive'src = "abc.png" alt="ad" class="logo"> -->
+    <div class="navbar">
+       <div class="navbar-right"> 
+    <ul id="smenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#p">Projects</a></li>
+        <li><a href="#about_me">About</a></li>
+        <li><a href="#copyright">Contact</a></li>
+        <li><i class="fa-solid fa-xmark" onclick="closemenu()"></i></li>
+    </ul>
+    <i class="fa-solid fa-bars" onclick="openmenu()"></i> 
+  </div> 
+  </div>
+  </nav>
+    <div class="header-text text-capitalize col-lg-12 col-md-12 col-sm-9 col-xs-12">
+        <h2>Hi,</h2>
+        <h2><span>I'm Ananya</span><br> Welcome to my data-driven realm! </h2>
+        <h3>Here, you'll find a collection of analytics-based projects and visualisations </h3>
+    </div>
+    </div>
+  </div>
+
+
+  
+<!--services-->
+
+<div id="services">
+  <div class="container col-lg-12 col-md-9 col-sm-9 col-xs-12">
+    <h2 class="subtitle">Services</h2>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-chart-pie"></i>
+        <h2> Power BI</h2>
+        <p> power bi projects</p>
+        <a href="https://github.com/bAnanyaMishra/powerBI_Projects" target="_blank">View Projects</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-magnifying-glass-chart"></i>
+        <h2> Tableau</h2>
+        <p> Tableau projects</p>
+        <a href="https://public.tableau.com/app/profile/ananya4035" target="_blank">View Projects</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-database"></i>
+        <h2> MYSQL</h2>
+        <p> mysql projects</p>
+        <a href="https://github.com/bAnanyaMishra/Sql_Project" target="_blank">View Projects</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--portfolio-->
+<div id="portfolio">
+  <div class="container col-lg-12 col-md-9 col-sm-9 col-xs-12" id="p">
+    <h2 class="subtitle">Favourite Projects</h2>
+    <div class="work-list">
+      <div class="work">
+        <img class='img-responsive' src="abc.jpg" alt="image">
+        <div class="layer">
+          <h3>Amazon Scarping</h3>
+          <p>sdfhhaf</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img class='img-responsive' src="abc.jpg" alt="image">
+        <div class="layer">
+          <h3>House Analysis</h3>
+          <p>sdfhhaf</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img class='img-responsive' src="abc.jpg" alt="image">
+        <div class="layer">
+          <h3>IMDB Scarping</h3>
+          <p>sdfhhaf</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">see more</a>
+  </div>
+</div>
+<!--About Me-->
+
+<div id="about">
+  <div class="container col-lg-12 col-md-12 col-sm-9 col-xs-12">
+      <div class='row'>
+          <div class="col1">
+              <img src="abc.png">
+          </div>
+          <div class="col2" id = "about_me">
+              <h2 class="subtitle text-capitalize">about me</h2>
+              <p class='text-capitalize'>sbdfhsbhfbdhfnds fns n</p>
+              <div class="tab-title">
+                  <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                  <p class="tab-links"onclick="opentab('Exp')">Experience</p>
+                  <p class="tab-links"onclick="opentab('Edu')">Education</p>
+              </div>
+              <div class="tab-content active-tab text-capitalize" id="skills">
+                <ul>
+                    <li><span>dataAnalysis</span><br>Analysing data and buisness requirement</li>
+                    <li><span>dataScience</span><br>Analysing data and buisness requirement</li>
+                    <li><span>Python</span><br>Analysing data and buisness requirement</li>
+                </ul>
+              </div>
+              <div class="tab-content text-capitalize" id ='Exp'>
+                <ul>
+                    <li><span>dataAnalysis</span><br>Analysing data and buisness requirement</li>
+                    <li><span>dataScience</span><br>Analysing data and buisness requirement</li>
+                    <li><span>Python</span><br>Analysing data and buisness requirement</li>
+                </ul>
+              </div>
+              <div class="tab-content text-capitalize" id="Edu">
+                <ul>
+                    <li><span>dataAnalysis</span><br>Analysing data and buisness requirement</li>
+                    <li><span>dataScience</span><br>Analysing data and buisness requirement</li>
+                    <li><span>Python</span><br>Analysing data and buisness requirement</li>
+                </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- contact form-->
+<div id="contact">
+  <div class="container col-lg-12 col-md-9 col-sm-12 col-xs-12">
+    <div class="row">
+      <div class="contact-left">
+          <h2 class="subtitle">Contact Me</h2>
+          <p><i class="fa-solid fa-envelope"style="color: #3a47bd;"></i>&nbsp;ananya2607@gmail.com</p>
+          <p><i class="fa-solid fa-phone"style="color: #3a47bd;"></i>&nbsp;+91 95426 39755</p>
+          <div class="social">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+          </div>
+          <a href="#" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="name" placeholder="your name" required>
+            <input type="email" name="email" placeholder="your email id" required>
+            <textarea name="message" rows="6" placeholder="your message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+    </div>
+  </div>
+</div>
+<div class="copyright col-lg-12 col-md-12 col-sm-9 col-xs-12" id="copyright">
+  <p>Copyright <i class="fa-regular fa-copyright"></i> Made by B.Ananya </p>
+</div>
+
+</div>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbx9GuTEb1TJs2pI1i82o42sK0p703t3fecdnDAR3jP0Skabovb-0oBwMcXUfENzv3Iv2A/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById('msg')
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML='Message Sent!'
+        setTimeout(function(){
+          msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+ </body>
+</html> 
