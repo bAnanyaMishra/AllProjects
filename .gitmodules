@@ -1,0 +1,9 @@
+[submodule "jupyter_projects"]
+	path = jupyter_projects
+	url = https://github.com/bAnanyaMishra/jupyter_projects.git
+[submodule "Excel_Project"]
+	path = Excel_Project
+	url = https://github.com/bAnanyaMishra/Excel_Project.git
+[submodule "Sql_Project"]
+	path = Sql_Project
+	url = https://github.com/bAnanyaMishra/Sql_Project.git
