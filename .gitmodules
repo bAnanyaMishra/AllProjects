@@ -7,3 +7,6 @@
 [submodule "jupyter_projects"]
 	path = jupyter_projects
 	url = https://github.com/bAnanyaMishra/jupyter_projects.git
+[submodule "powerBI_Projects"]
+	path = powerBI_Projects
+	url = https://github.com/bAnanyaMishra/powerBI_Projects.git
