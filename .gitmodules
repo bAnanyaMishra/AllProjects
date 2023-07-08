@@ -4,3 +4,6 @@
 [submodule "Sql_Project"]
 	path = Sql_Project
 	url = https://github.com/bAnanyaMishra/Sql_Project.git
+[submodule "jupyter_projects"]
+	path = jupyter_projects
+	url = https://github.com/bAnanyaMishra/jupyter_projects.git
