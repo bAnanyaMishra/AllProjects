@@ -20,3 +20,12 @@ function openmenu(){
 function closemenu(){
     document.getElementById('smenu').style.right='-200px';
 }
+
+// function downloadPdf() {
+// 	var pdf = new Blob([document.getElementById('pdf-content').innerHTML], {type: 'application/pdf'});
+// 	var downloadLink = document.createElement("a");
+// 	downloadLink.href = window.URL.createObjectURL(pdf);
+// 	downloadLink.download = "mypdf.pdf";
+// 	document.body.appendChild(downloadLink);
+// 	downloadLink.click();
+// 	}
